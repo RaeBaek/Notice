@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>128141748326-mujfoboatuo5ts7qimlesksqgsamojkm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.128141748326-mujfoboatuo5ts7qimlesksqgsamojkm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDPDUEE2sj7PHjcM7_37nRyeGLos4PYBBo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>128141748326</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>RaeHoon.Notice</string>
+	<key>PROJECT_ID</key>
+	<string>notice-2c5e7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>notice-2c5e7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:128141748326:ios:193a0df1c57ac4ce2b65a7</string>
+</dict>
+</plist>
