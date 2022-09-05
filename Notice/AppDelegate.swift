@@ -17,6 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FirebaseApp.configure()
+        
+        Installations.installations().authTokenForcingRefresh(true) { result, error in
+            if let error = error {
+                print("ERROR")
+                return
+            }
+            guard let result = result else { return }
+            print("Installation auth token: \(result.authToken)")
+        }
         return true
     }
 
