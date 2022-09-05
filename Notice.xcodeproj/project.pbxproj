@@ -16,6 +16,7 @@
 		14F4643F28C1D40700E5C17B /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F4643D28C1D40700E5C17B /* NoticeViewController.swift */; };
 		14F4644028C1D40700E5C17B /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F4643E28C1D40700E5C17B /* NoticeViewController.xib */; };
 		14F4644228C1D88000E5C17B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F4644128C1D88000E5C17B /* GoogleService-Info.plist */; };
+		14F83C0F28C5F21C002F6A54 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F83C0E28C5F21C002F6A54 /* RemoteConfigDefaults.plist */; };
 		7D9030DA101C16F848E0D586 /* Pods_Notice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91303C6D3332E7F1ADCD245 /* Pods_Notice.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		14F4643D28C1D40700E5C17B /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		14F4643E28C1D40700E5C17B /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		14F4644128C1D88000E5C17B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14F83C0E28C5F21C002F6A54 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		4AAABA72766AE3FF85D402F5 /* Pods-Notice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notice.debug.xcconfig"; path = "Target Support Files/Pods-Notice/Pods-Notice.debug.xcconfig"; sourceTree = "<group>"; };
 		C770635D786B3A3D4FE09A0F /* Pods-Notice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notice.release.xcconfig"; path = "Target Support Files/Pods-Notice/Pods-Notice.release.xcconfig"; sourceTree = "<group>"; };
 		F91303C6D3332E7F1ADCD245 /* Pods_Notice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 				14F4643428C1D3CF00E5C17B /* LaunchScreen.storyboard */,
 				14F4643728C1D3CF00E5C17B /* Info.plist */,
 				14F4644128C1D88000E5C17B /* GoogleService-Info.plist */,
+				14F83C0E28C5F21C002F6A54 /* RemoteConfigDefaults.plist */,
 			);
 			path = Notice;
 			sourceTree = "<group>";
@@ -97,7 +100,6 @@
 				4AAABA72766AE3FF85D402F5 /* Pods-Notice.debug.xcconfig */,
 				C770635D786B3A3D4FE09A0F /* Pods-Notice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F83C0F28C5F21C002F6A54 /* RemoteConfigDefaults.plist in Resources */,
 				14F4643628C1D3CF00E5C17B /* LaunchScreen.storyboard in Resources */,
 				14F4643328C1D3CF00E5C17B /* Assets.xcassets in Resources */,
 				14F4644228C1D88000E5C17B /* GoogleService-Info.plist in Resources */,
